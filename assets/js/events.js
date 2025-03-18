@@ -51,7 +51,7 @@ let myLiveTextResult = document.getElementById("tasteResult");
 // skriv din eventhandler kode her ---------------------------------------
 
 myLiveText.addEventListener("keyup", (keyEvent) => {
-  showResult(keyEvent.key, myLiveTextResult);
+  showResult(myLiveText.value, myLiveTextResult);
 });
 
 //-------------------------------------------------------------------------
